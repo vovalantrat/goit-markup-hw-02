@@ -93,7 +93,7 @@ ul {
 .main-banner-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -106,9 +106,10 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
+    cursor: pointer;
 }
 
-.main-banner-btn:hover {
+.main-banner-btn:hover, .main-banner-btn:focus {
     background-color: #404BBF;
 }
 
@@ -117,7 +118,7 @@ ul {
 }
 
 .main-features-title {
-    
+    color: #2e2f42;
 }
 
 .features-list {
@@ -133,6 +134,7 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .list-item-content {
@@ -150,9 +152,11 @@ ul {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .about-us-list {
