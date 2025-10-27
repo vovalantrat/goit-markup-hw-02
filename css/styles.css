@@ -6,4 +6,198 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
+
+ul {
+    list-style-type: none;
+}
+
+/* #region Header */
+
+
+.page-header {
+
+}
+
+.page-nav {
+
+}
+
+.main-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.text-color-logo {
+    color: #4D5AE5;
+}
+
+.nav-list {
+
+}
+
+.nav-list-item {
+
+}
+
+.nav-link:hover,
+.contact-link:hover,
+.nav-link:focus,
+.contact-link:focus {
+    color: #404BBF;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contact-list {
+
+}
+
+.contact-list-item {
+
+}
+
+.contact-link {
+
+}
+
+/* #endregion */
+
+/* #region Main */
+
+.page-main {
+
+}
+
+.main-banner {
+    background-color: #2E2F42;
+    color: #ffffff
+}
+
+.main-banner-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.main-banner-btn {
+    background-color: #4D5AE5;
+    color: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    margin: 0;
+    padding: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: none;
+    border-radius: 4px;
+}
+
+.main-banner-btn:hover {
+    background-color: #404BBF;
+}
+
+.main-features {
+
+}
+
+.main-features-title {
+    display: none;
+}
+
+.features-list {
+    
+}
+
+.features-list-item {
+    
+}
+
+.list-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.list-item-content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.about-us {
+    background-color: #F4F4FD;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.about-us-list {
+
+}
+
+.about-list-item {
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px;
+    width: 264px;
+    height: 380px;
+    text-align: center;
+}
+
+.about-img-content {
+
+}
+
+.portfolio {
+
+}
+
+.portfolio-list {
+    
+}
+
+.portfolio-list-item {
+   
+}
+
+.portfolio-img-content {
+
+}
+/* #endregion */
+
+/* #region Footer */
+
+.page-footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.footer-content {
+    
+}
+
+/* #endregion */
