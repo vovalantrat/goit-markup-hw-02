@@ -38,6 +38,10 @@ ul {
     color: #2e2f42;
 }
 
+.page-footer .text-color-logo {
+    color: #f4f4fd;
+}
+
 .nav-list {
 
 }
@@ -197,7 +201,8 @@ ul {
 }
 
 .footer-content {
-    
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* #endregion */
